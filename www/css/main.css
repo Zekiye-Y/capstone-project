@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  padding-top: 56px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+#sidebar {
+  background-color: rgba(232, 232, 232, 1);
+}
