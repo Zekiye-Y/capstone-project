@@ -82,7 +82,7 @@ The thing you need to run the application and how to install them.
    ```
 2. Install python ml packages eg. keras, tensorflow etc
    ```sh
-   pip3 install keras
+   pip3 install torch, nnunetv2, batchgenerators
    ```
 
 
@@ -93,29 +93,7 @@ The thing you need to run the application and how to install them.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Here's a quick guide to get you started:
-
-1. **Uploading DICOM Data**:
-    - Launch the application.
-    - Navigate to the 'Upload' section.
-    - Select or drag-and-drop the patient's CT scan in DICOM format.
-
-2. **Selecting Classification Complexity**:
-    - Once your CT scan is uploaded, navigate to the 'Classification' section.
-    - Choose the desired classification complexity. 
-
-3. **Reviewing Results**:
-    - After making your selection, the application will process and classify the scan.
-    - View the segmented and classified DICOM data within the 'Results' section.
-    - Here, layers are labeled based on content, e.g., kidney, tumor, etc.
-
-4. **Additional Features** :
-    - The 'Results' section also allows users to view the original DICOM data.
-    - Users can also view the classification accuracy and loss graphs.
-
-5. **Exporting Data**:
-    - Once satisfied with the classification, navigate to the 'Export' section.
-    - Download the classified segmented file for further use or analysis.
+Please see the 'Official_Capstone_nnUNet.ipynb' to get a step by step walk through.
 
 [![Application screenshot][application-screenshot]](https://github.com/Zekiye-Y/capstone-project)
 *Interface of the IMRA Auto segmentation Application showcasing a kidney classification.*
@@ -126,11 +104,11 @@ Here's a quick guide to get you started:
 <!-- CONTRIBUTORS -->
 ## Contributors
 
-* Aleisha Dillon: email@email.com
-* Ei Thiri Lwin: email@email.com
-* Frederick Amad: email@email.com
-* Mario Kweku Djameh: email@email.com
-* Zekiye Yildirim: email@email.com
+* Aleisha Dillon: S3955398@student.rmit.edu.au
+* Ei Thiri Lwin: S3866360@student.rmit.edu.au
+* Frederick Amad: S3894463@student.rmit.edu.au
+* Mario Kweku Djameh: S3917002@student.rmit.edu.au
+* Zekiye Yildirim: S3485509@student.rmit.edu.au
 
 Project Link: [https://github.com/Zekiye-Y/capstone-project](https://github.com/Zekiye-Y/capstone-project)
 
